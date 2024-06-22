@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GsantyExamen.Vistas.vResumen"
+             Title="vResumen">
+    <VerticalStackLayout>
+        <Label 
+            Text="Nombre:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            x:Name="lblNombre"
+            TextColor="Red"
+            FontSize="14"
+            HorizontalTextAlignment="Center"/>
+
+
+        <Label 
+            Text="Apellido:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            x:Name="lblApellido"
+            TextColor="Red"
+            FontSize="14"
+            HorizontalTextAlignment="Center"/>
+
+        <Label 
+            Text="Edad:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            x:Name="lblEdad"
+            TextColor="Red"
+            FontSize="14"
+            HorizontalTextAlignment="Center"/>
+
+        <Label 
+            Text="Fecha:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            x:Name="lblFecha"
+            TextColor="Red"
+            FontSize="14"
+            HorizontalTextAlignment="Center"/>
+
+        <Label 
+            Text="Ciudad:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            x:Name="lblCiudad"
+            TextColor="Red"
+            FontSize="14"
+            HorizontalTextAlignment="Center"/>
+
+        <Label 
+            Text="País:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            x:Name="lblPais"
+            TextColor="Red"
+            FontSize="14"
+            HorizontalTextAlignment="Center"/>
+
+        <Label 
+            Text="Monto Inicial:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            x:Name="lblMontoInicial"
+            TextColor="Red"
+            FontSize="14"
+            HorizontalTextAlignment="Center"/>
+
+        <Label 
+            Text="Pago Mensual:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            x:Name="lblPagoMensual"
+            TextColor="Red"
+            FontSize="14"
+            HorizontalTextAlignment="Center"/>
+
+        <Label 
+            Text="Pago Total:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            x:Name="lblPagoTotal"
+            TextColor="Red"
+            FontSize="14"
+            HorizontalTextAlignment="Center"/>
+
+    </VerticalStackLayout>
+</ContentPage>
